@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//Frontend
 Route::get('/', 'PageController@home')->name('home');
 
 Auth::routes();
